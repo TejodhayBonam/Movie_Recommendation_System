@@ -20,7 +20,7 @@ $(function() {
   })
 
   $('.movie-button').on('click',function(){
-    var my_api_key = 'YOUR_API_KEY';
+    var my_api_key = '8a053c80b9e28ab6380e2c6db968413c';
     var title = $('.movie').val();
     if (title=="") {
       $('.results').css('display','none');
