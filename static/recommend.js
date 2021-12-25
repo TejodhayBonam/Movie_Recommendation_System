@@ -40,7 +40,7 @@ $(function() {
 // will be invoked when clicking on the recommended movie cards
 function recommendcard(e){
   $("#loader").fadeIn();
-  var my_api_key = 'YOUR_API_KEY';
+  var my_api_key = '8a053c80b9e28ab6380e2c6db968413c';
   var title = e.getAttribute('title'); 
   load_details(my_api_key,title);
 }
